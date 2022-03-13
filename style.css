@@ -13,3 +13,58 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 }
+.card:hover{
+    background: #3F87F5;
+box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+border-radius: 26px;
+color: white;
+}
+
+.card:hover h1{
+    color: white;
+}
+.card:hover h2{
+    color: white;
+}
+.card:hover li{
+    color: white;
+}
+.card:hover i{
+    color: white ;
+}
+#badges .badge{
+    display: none;
+}
+#badges:hover .badge{
+    display: block;
+}
+.card h1{
+    color: #231D4F;
+    font-size: 36px;
+}
+.card h2{
+    color: #231D4F;
+    font-size: 28px;
+}
+.card ul{
+    padding-left: 0;
+}
+.card ul li{
+    list-style: none;
+    color: #848199;
+}
+.card ul li i{
+    color: #848199;
+}
+.card a{
+    text-decoration: none;
+    background: #f496d2a1;
+    color: blue;
+    border-radius: 24px;
+}
+.card:hover a{
+    text-decoration: none;
+    background: blue;
+    color: white;
+    border-radius: 24px;
+}
